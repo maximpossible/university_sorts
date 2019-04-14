@@ -17,6 +17,7 @@ public:
 
 private:
     void PrivateQuickSort(std::vector<int>::iterator left_iterator, std::vector<int>::iterator right_iterator);
+    std::vector<int>::iterator GetPartition(std::vector<int>::iterator left_iterator, std::vector<int>::iterator right_iterator);
 
 private:
     std::vector<int> m_small_vector;

@@ -10,9 +10,9 @@ int main()
 
     //a.BubbleSort();
 
-    //a.QuickSort();
+    a.QuickSort();
 
-    a.SelectionSort();
+    //a.SelectionSort();
 
 
     a.ShowVector();
