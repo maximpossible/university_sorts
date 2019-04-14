@@ -14,7 +14,9 @@ int main()
 
     //a.SelectionSort();
 
-    a.InsertionSort();
+    //a.InsertionSort();
+
+    a.MergeSort();
     a.ShowVector();
 
 
