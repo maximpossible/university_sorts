@@ -14,6 +14,7 @@ public:
     void BubbleSort();
     void QuickSort();
     void SelectionSort();
+    void InsertionSort();
 
 private:
     void PrivateQuickSort(std::vector<int>::iterator left_iterator, std::vector<int>::iterator right_iterator);

@@ -71,3 +71,14 @@ void Container::QuickSort()
     PrivateQuickSort(m_small_vector.begin(), m_small_vector.end()-1);
 }
 
+
+void Container::InsertionSort()
+{
+    for (auto i = m_small_vector.begin() + 1; i != m_small_vector.end(); i++)  // 3 6 1 9
+    {
+        for (auto j = i; *j < *(j - 1) && j > m_small_vector.begin(); j--)
+        {
+            std::iter_swap(j, j - 1);
+        }
+    }
+}
