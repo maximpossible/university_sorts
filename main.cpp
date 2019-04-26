@@ -16,9 +16,9 @@ int main()
 
     //a.InsertionSort();
 
-    //a.MergeSort();
+    a.MergeSort();
 
-    a.FunnelSort();
+    //a.FunnelSort();
 
     a.ShowVector();
 
